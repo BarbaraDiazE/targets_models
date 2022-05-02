@@ -73,7 +73,6 @@ class Ensemble:
         ]
         ensemble = VotingClassifier(estimators=models, voting="hard")
         y = np.array(self.data["target"])
-        print(y)
         y = label_binarize(y, classes=["No", "Yes"])
         y = np.reshape(y, int(y.shape[0]))
         numerical_data = np.array(self.data[self.descriptors])
