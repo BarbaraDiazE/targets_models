@@ -1,0 +1,154 @@
+{
+    "target1" : {
+        "target": "LFA / ICAM",
+        "model_name": "ensemble_ecfp6_1_target1.pkl",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "models": {
+            "RF": {
+                "n_estimators": 500,
+                "criterion": "entropy",
+                "class_weight": "balanced",
+                "random_state": 1992
+            },
+            "SVM": {
+                "kernel":"rbf",
+                "class_weight": "None",
+                "random_state": 1992
+            }
+         }
+    },
+    "target2" : {
+        "target": "Bromodomain / Histone",
+        "model_name": "ensemble_ecfp6_1_target2.pkl",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "models": {
+            "RF": {
+                "n_estimators": 500,
+                "criterion": "entropy",
+                "class_weight": "balanced",
+                "random_state": 1992
+            },
+            "SVM": {
+                "kernel":"rbf",
+                "class_weight": "None",
+                "random_state": 1992
+            }
+         }
+    },
+    "target3" : {
+        "target": "BCL2-Like / BAX",
+        "model_name": "ensemble_ecfp6_1_target3.pkl",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "models": {
+            "RF": {
+                "n_estimators": 500,
+                "criterion": "entropy",
+                "class_weight": "balanced",
+                "random_state": 1992
+            },
+            "SVM": {
+                "kernel":"rbf",
+                "class_weight": "None",
+                "random_state": 1992
+            }
+         }
+    },
+    "target4" : {
+        "target": "XIAP / Smac",
+        "model_name": "ensemble_ecfp6_1_target4.pkl",
+         "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "models": {
+            "RF": {
+                "n_estimators": 500,
+                "criterion": "entropy",
+                "class_weight": "balanced",
+                "random_state": 1992
+            },
+            "SVM": {
+                "kernel":"rbf",
+                "class_weight": "None",
+                "random_state": 1992
+            }
+         }
+    },
+    "target5" : {
+        "target": "LEDGF / IN",
+        "model_name": "ensemble_ecfp6_1_target5.pkl",
+         "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "models": {
+            "RF": {
+                "n_estimators": 500,
+                "criterion": "entropy",
+                "class_weight": "balanced",
+                "random_state": 1992
+            },
+            "SVM": {
+                "kernel":"rbf",
+                "class_weight": "None",
+                "random_state": 1992
+            }
+         }
+    },
+    "target6" : {
+        "target": "CD80 / CD28",
+        "model_name": "ensemble_ecfp6_1_target6.pkl",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "models": {
+            "RF": {
+                "n_estimators": 500,
+                "criterion": "entropy",
+                "class_weight": "balanced",
+                "random_state": 1992
+            },
+            "SVM": {
+                "kernel":"rbf",
+                "class_weight": "None",
+                "random_state": 1992
+            }
+         }
+    },
+    "target7" : {
+        "target": "MDM2-Like / P53",
+        "model_name": "ensemble_ecfp6_1_target7.pkl",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "models": {
+            "RF": {
+                "n_estimators": 500,
+                "criterion": "entropy",
+                "class_weight": "balanced",
+                "random_state": 1992
+            },
+            "SVM": {
+                "kernel":"rbf",
+                "class_weight": "None",
+                "random_state": 1992
+            }
+        }
+    },
+    "target8" : {
+        "target": "CD4 / gp120",
+        "model_name": "ensemble_ecfp6_1_target8.pkl",
+        "descriptors": "ECFP6",
+        "proportion": 0.2,
+        "models": {
+            "RF": {
+                "n_estimators": 500,
+                "criterion": "entropy",
+                "class_weight": "balanced",
+                "random_state": 1992
+            },
+            "SVM": {
+                "kernel":"rbf",
+                "class_weight": "None",
+                "random_state": 1992
+            }
+        }
+    }
+}
