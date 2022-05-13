@@ -1,0 +1,9 @@
+,model,accuracy mean,accuracy std
+1,LFA / ICAM,0.999,0.002
+2,Bromodomain / Histone,0.983,0.01
+3,BCL2-Like / BAX,0.992,0.006
+4,XIAP / Smac,0.998,0.004
+5,LEDGF / IN,0.982,0.009
+6,CD80 / CD28,0.999,0.002
+7,MDM2-Like / P53,0.99,0.006
+8,CD4 / gp120,0.999,0.002
